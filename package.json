@@ -17,5 +17,5 @@
     "type": "git",
     "url": "git@github.com:mihs/naboo.git"
   },
-  "main"          : "lib/naboo.js"
+  "main"          : "lib/bootstrap.js"
 }
