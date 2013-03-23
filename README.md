@@ -1,0 +1,4 @@
+naboo
+=====
+
+Node application bootstrap
