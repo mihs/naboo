@@ -41,10 +41,11 @@ A plugin is a simple Javascript function with the context set to the config obje
 Example dbloader.js
 
 module.exports = function(done) {
+  self = this;
   db.connect(function(err, dbobject){
     if (err)
       return done(err);
-    @db = dbobject;
+    self.db = dbobject;
     done()
   });
 }
