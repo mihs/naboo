@@ -27,6 +27,8 @@ naboo(options, function(){
 * `configPath` The path where the environment specific configuration files are stored.
 * `initPath` The path where the plugins are stored. Files in this directory are first sorted by name and then loaded one at a time, in order.
 * `init` If you want to customize the plugin order, pass an array with either strings or functions. If an element is a string, a file with the name specified by the element is loaded from `initPath` and executed as a plugin. If an element is a function, that function is executed as a plugin.
+* `strict` Do not continue when an error is encountered. Default: `false`
+* `autoExit` Only works when `strict` is `true`. If `true`, call `process.exit` when an error is encountered. Default: `true`.
 
 ### Process parameters
 

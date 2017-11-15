@@ -4,14 +4,13 @@
   "url"           : "https://github.com/mihs/naboo",
   "author"        : "Mihnea Scafes <mihnea@nagemus.com>",
   "contributors"  : [],
-  "version"       : "0.2.0",
+  "version"       : "0.3.0",
   "dependencies"  : {
     "async"       : "0.2.x",
     "debug": "0.7.x"
   },
   "engines": { 
-    "node": "0.10.x",
-    "npm":  "1.3.x"
+    "node": "8.0.x"
   },
   "repository": {
     "type": "git",
